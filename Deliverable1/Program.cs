@@ -42,14 +42,14 @@ namespace Deliverable1
 
             }
 
-            foreach (char x in password)
+            foreach (char y in password)
             {
-                if (Char.IsUpper(x))
+                if (Char.IsUpper(y))
                 {
                     hasCap = true;
 
                 }
-                if (Char.IsLower(x))
+                if (Char.IsLower(y))
                 {
                     hasLower = true;
                 }
